@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VirtualQ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <header>
+    <div class="virtualq-name">VirtualQ</div>
+    <div class="subtext">Imagine all you can do instead of standing in queues!</div>
+  </header>
+  <div class="message-404">
+    {{message}}
+  </div>
+  <footer>
+    <p>Sign up as a business</p><span>&nbsp;|&nbsp;</span><p>Contact us</p>
+  </footer>
+  <style type="text/css">
+    body,h1,h5 {font-family: "Raleway", sans-serif}
+    html {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    body {
+      display: flex;
+      border: 0.4em solid #6d7979;
+      width: 50%;
+      padding: 0.5em;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    body div {
+      margin: 0.5em;
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      body {
+        width: 90%;
+      }
+    }
+    header {
+      background: cornflowerblue;
+      height: 7rem;
+      min-height: 7rem;
+      display: flex;
+      color: white;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+      max-width: 100%;
+    }
+    header div {
+      margin: 0;
+    }
+    header .virtualq-name {
+      font-size: 2em;
+      font-weight: 700;
+    }
+    header .subtext {
+      font-size: 1.3em;
+      text-align: center;
+    }
+    .message-404 {
+      max-width: 100%;
+      background: #eee;
+      height: 23em;
+      max-height: 23em;
+      padding: 0.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5em;
+    }
+
+    footer {
+      height: 6em;
+      max-height: 6em;
+      background: burlywood;
+      color: #fff;
+      font-size: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 6rem;
+    }
+    footer p {
+      text-decoration: underline;
+    }
+  </style>
+</body>
